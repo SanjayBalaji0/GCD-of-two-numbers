@@ -15,15 +15,17 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 ```
-/*
-Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
+def gcd():
+   import math
+   a=int(input())
+   b=int(input())
+   c=math.gcd(a,b)
+   print("GCD of two numbers is:",c)
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![image](https://github.com/SanjayBalaji0/GCD-of-two-numbers/assets/145533553/f3b705c1-e57e-42ba-8c9a-7e4c2ebd48cf)
+
 
 
 ## Result:
